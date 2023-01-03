@@ -1,0 +1,25 @@
+html{
+    font-family: sans-serif;
+    background-color: #ffc600;
+}
+.inbox{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+.item:last-child{
+    border-bottom: 0;
+}
+input:checked+p{
+    background-color: #f9f9f9;
+    text-decoration: line-through;
+}
+input[type="checkbox"]{
+    margin: 20px;
+}

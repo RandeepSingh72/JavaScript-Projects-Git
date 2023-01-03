@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: #ffc600;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+#bands{
+    list-style: inside square;
+    font-size: 20px;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    padding: 0;
+}
+#bands li{
+    border-bottom: 1px solid #efefef;
+    padding: 20px;
+}
+#bands li:last-child{
+    border-bottom: 2px;
+}
