@@ -63,6 +63,10 @@ buttons.map(button=>{button.addEventListener('click',(e)=>{
             else{
               display.innerText=display.innerText + e.target.innerText;
             }
+            case'.':
+            if(display.innerText.slice(-1).includes('.')){
+              return;
+            }
             case '-':
               if(display.innerText.slice(-1).includes('-')){
                 return;
